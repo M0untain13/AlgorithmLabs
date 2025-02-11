@@ -56,7 +56,6 @@ def Bellman(matrix, start, end):
                         dist[column] = dist[row] + w
                     else:
                         return "Граф содержит цикл отрицательных весов!"
-
     return dist[end]
 
 def PrintMatrix(matrix):
